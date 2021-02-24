@@ -1,0 +1,33 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 500px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+
+  label{
+    display: inline-block;
+    width: 150px;
+    text-align:left;
+  }
+
+ input {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+  
+    /* Tamaño uniforme del campo de texto */
+    width: 330px;
+    box-sizing: border-box;
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #CCC;
+  }
