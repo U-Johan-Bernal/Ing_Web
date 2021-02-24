@@ -6,14 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML SEMANTICO</title>
 </head>
-<link rel="stylesheet" href="index.css">
+
+
 <body>
-    <h1>Series Favoritas</h1>
-    <ol>
-        <li>Wanda&Vision</li>
-        <li>Game Of Thrones</li>
-        <li>Black Mirror</li>
-        <li>Breaking Bad</li>
-    </ol>
+    <h1>Mi primer Formulario</h1>
+    <form class="formulario" action="#">
+
+        <br><label  for="Nombre" >
+            Nombre: <input type="text" id="Nombre" placeholder="Nombres y Apellidos" required>
+        </label></br>
+
+        <br><label for="Telefono">
+            Teléfono: <input type="tel" id="Telefono" placeholder="0317289506" required>
+        </label></br>
+    
+        <br><label for="Direccion">
+            Dirección: <input type="text" id="Direccion" placeholder="kra 80A # 70 - 11" required>
+        </label></br>
+
+        <br><label for="Fecha_Nacimiento">
+            Fecha De Nacimiento: <input type="date" id="Fecha_Nacimiento" required>
+        </label></br>
+
+        <br><label for="Email">
+            Correo Electronico: <input type="email" id="Email" placeholder="example@gmail.com" required>
+        </label></br>
+
+        <br><label for="Contraseña">
+            Contraseña: <input type="password" id="Contraseña" required>
+        </label></br>
+
+        <br><label for="Re_Contraseña">
+            Confirmar Contraseña: <input type="password" id="Re_Contraseña" required>
+        </label></br>
+    </form>
+
 </body>
 </html>
