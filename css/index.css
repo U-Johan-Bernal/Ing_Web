@@ -1,15 +1,27 @@
+html {
+  font-family: 'Montserrat', Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 h1{
-    color: blueviolet;
+    color: #474544;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
     text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+  background: #F2F3EB;
 }
 
 form {
-    /* Centrar el formulario en la página */
     margin: 0 auto;
     width: 500px;
-    /* Esquema del formulario */
     padding: 1em;
-    border: 1px solid #CCC;
+    border: solid 4px #474544;
     border-radius: 1em;
   }
 
@@ -17,17 +29,23 @@ form {
     display: inline-block;
     width: 150px;
     text-align:left;
+    font-size: 1.000em;
+    letter-spacing: 1px;
+    color: #474544;
   }
 
  input {
-    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
-       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
     font: 1em sans-serif;
-  
-    /* Tamaño uniforme del campo de texto */
     width: 330px;
-    box-sizing: border-box;
-  
-    /* Hacer coincidir los bordes del campo del formulario */
     border: 1px solid #CCC;
+    color: #474544;
+    text-transform: uppercase;
   }
+
+.btn-submit{
+    color: #5A5A5A;
+    font: inherit;
+    border: solid 2px #474544;
+    width: 200px;
+    margin: 0 auto;
+}

@@ -4,40 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
     <title>HTML SEMANTICO</title>
 </head>
-<link rel="stylesheet" href="./css/index.css">
+
 <body>
     <h1>Mi primer Formulario</h1>
-    <form class="formulario" action="#">
+    <div id="resultado"></div>
+    <form class="formulario" action="#" >
 
         <label  for="Nombre">Nombre:</label>
         <input type="text" id="Nombre" placeholder="Nombres y Apellidos" required>
-        <br></br>
+        <p></p>
 
         <label for="Telefono">Teléfono:</label>
         <input type="tel" id="Telefono" placeholder="0317289506" required>
-        <br></br>
+        <p></p>
     
         <label for="Direccion">Dirección:</label>
         <input type="text" id="Direccion" placeholder="kra 80A # 70 - 11" required>
-        <br></br>
+        <p></p>
 
         <label for="Fecha_Nacimiento">Fecha De Nacimiento:</label>
         <input type="date" id="Fecha_Nacimiento" required>
-        <br></br>
+        <p></p>
 
         <label for="Email">Correo Electronico:</label>
         <input type="email" id="Email" placeholder="example@gmail.com" required>
-        <br></br>
+        <p></p>
 
         <label for="Contraseña">Contraseña:</label>
         <input type="password" id="Contraseña" required>
-        <br></br>
+        <p></p>
 
         <label for="Re_Contraseña">Confirmar Contraseña:</label>
         <input type="password" id="Re_Contraseña" required>
-        <br></br>
+        <p></p>
+
+        <input type="submit" class="btn-submit" value="Verificar">
+        <p></p>
+
+        
     </form>
 
 </body>
